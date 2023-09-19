@@ -81,12 +81,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWQ-Mp-XCA">
                                 <rect key="frame" x="67.5" y="163.5" width="240" height="340"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="F88-dp-4zS">
-                                        <rect key="frame" x="20" y="128" width="200" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="thumbTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </slider>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bdi-iV-HXk">
                                         <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -120,7 +114,7 @@
                                         </connections>
                                     </button>
                                     <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pdz-pz-DPx">
-                                        <rect key="frame" x="16" y="128" width="200" height="30"/>
+                                        <rect key="frame" x="20" y="136" width="200" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="thumbTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -148,7 +142,7 @@
                     <connections>
                         <outlet property="slBlue" destination="mgb-0t-6o3" id="9kv-1u-pAL"/>
                         <outlet property="slGreen" destination="kFG-oa-3gy" id="OPe-go-dgL"/>
-                        <outlet property="slRed" destination="F88-dp-4zS" id="6Jb-pU-GOG"/>
+                        <outlet property="slRed" destination="pdz-pz-DPx" id="emZ-dk-cBS"/>
                         <outlet property="viColor" destination="Bdi-iV-HXk" id="h5p-E9-zbn"/>
                     </connections>
                 </viewController>
